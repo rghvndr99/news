@@ -1,0 +1,48 @@
+@import './config.scss';
+
+  /*........search section.............*/
+
+  .search-wrapper {
+      display:flex;
+      flex-direction: column;
+
+      .filter-section{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .input-item-wrapper{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 10px 10px 10px 0;
+      }
+      .input-item-wrapper:last-child{
+        margin-right: 0;
+      }
+      input,select,button {
+        height: 40px;
+        border: 1px solid #e9ecef;
+        border-radius: 5px;
+      }
+      label {
+        color: $red3;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      button {
+        width: 120px;
+      }
+      .btn-search{
+        margin-top:20px;
+      }
+  }
+
+
+  @media screen and (min-width: $desktop){
+    .filter-section{
+      justify-content: space-between;
+    }
+  }
+
+ 

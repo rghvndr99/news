@@ -1,0 +1,24 @@
+.img-section {
+    img {
+        height: 40vh;
+        width: 84vw;
+    }
+}
+
+@media screen and (min-width:$tablet) {
+    .img-section {
+        img {
+            height: 40vh;
+            width: 91vw;
+        }
+    }
+  }
+
+  @media screen and (min-width:$desktop) {
+    .img-section {
+        img {
+            height: 40vh;
+            width: 26vw;
+        }
+    }
+  }

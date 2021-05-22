@@ -1,0 +1,12 @@
+.page-wrapper {
+     display:flex;
+     margin:0 20px;
+     flex-direction: column;
+}
+
+@media screen and (min-width:$desktop) {
+     .page-wrapper {
+       flex-direction:column;
+       margin:0 10%;
+     }
+   }

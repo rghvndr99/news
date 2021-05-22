@@ -1,0 +1,52 @@
+@import './config.scss';
+
+/*..................Item Section .............*/
+.item-wrapper {
+    display:flex; 
+    flex-direction:column;
+    align-items: center;
+   
+    .tile-wrap {
+      display:flex;
+      border:1px solid $white4;
+      padding: 10px;
+      margin:20px;
+      cursor:pointer;
+      width:100%;
+    }  
+    .tile-header-section{
+      display:flex;
+      flex-direction:column;
+    } 
+    .content-section {
+      display:flex;
+      flex-direction: column;
+      margin: 0 20px;
+      justify-content: space-between;
+    }
+    .title-section{
+      font-size: 16px;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    .description-section{
+      font-size: 14px;
+    }
+    .label-wrapper{
+     display:flex;
+
+     .primary-label{
+        font-size: 16px;
+     }
+    }
+  }
+
+  @media screen and (min-width:$desktop) {
+      
+      .item-wrapper {
+         .tile-header-section {
+          flex-direction:row
+        }
+      }
+    }
+  
