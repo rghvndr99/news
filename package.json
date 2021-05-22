@@ -29,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "cross-env APP_BASE_URL=YYYY APP_TOKEN=XXXX node server/index.js"
+    "server": "cross-env APP_BASE_URL=https://newsapi.org/v2/everything APP_TOKEN=XXXXXX node server/index.js"
   },
   "eslintConfig": {
     "extends": [
